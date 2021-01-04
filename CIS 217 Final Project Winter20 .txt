@@ -1,0 +1,60 @@
+
+CIS 217 Final Project
+
+Instructions: Document your work, and submit your documention in Canvas.
+
+ 1. Install a new copy of Linux server, your choice of distribution. Create 1 50 GB disk for your installation. (10 points)
+
+ 2. Using manual partitioning, create the three partitions as listed below: (5 points)
+
+	1200 MiB	Primary		ext4      /boot
+	8192 MiB	Primary		swap
+	 Max		Primary		ext4      /
+
+NOTE: See Manual Disk Partitioning Guide for Ubuntu Server Edition:
+https://ubuntuserverguide.com/2013/02/manual-disk-partition-guide-for-ubuntu-server-edition.html
+
+ 3. Update the system. (5 points)
+
+ 4. Set these password complexity requirements: 1 upper case letter, 1 lower case letter, 1 number, 1 special character, min 8 characters long. (5 points)
+
+ 5. Create the following users, using the first initial and lastname as the username. The UID and GID should be identical. Place the first and last name in the comments field. Create a home directory for each user. (10 points)
+fname,lname
+Arden,Ally
+Tanner,Bellon
+Leonard,Contrero
+Colorado,Davids
+Ursula,Gresham
+Alex,Huston
+Xaviera,Newman
+Alec,Potter
+Melody,Sharpton
+Charlotte,Tennison
+
+ 6. Create an group named accounting (5 points)
+
+ 7. Add the following users to the accounting group: (5 points)
+       tbellon, ahuston, apotter and msharpton
+
+ 8. Create an accounting folder located at /srv/accounting and set the accounting group as the owner. Copy a number of files into this folder. (5 points)
+
+ 9. Give the owner read, write and execute permissions on the Accounting folder and all of its files. (10 points).
+    Remove all permissions for the general public to the Accounting folder and all of its files.
+
+10. Limit ordinary users with administration privileges to the following users:(5 points)
+	ugresham and xnewman 
+
+11. Install Apache, MySQL and PHP. (15 points)
+
+12. Create an ordinary MySQL user account with a personal database. 
+    Log in, and upload the client.txt file to create a set of new tables in this database. (10 points)
+
+13. Install ssh server, create a Self-Signed SSL Certificate, and demonstrate you can open a ssh session. (10 points)
+
+14. Clear and disable bash history. (5 points)
+
+Extra Credit: Assess your machine for vulnerabilities. Document any vulnerabilities that are found. 
+Propose mitigations and/or solutions for each vulnerability. Turn off any unnecessary services. 
+Document any solutions that are applied. (0-20 points)
+
+

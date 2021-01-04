@@ -1,0 +1,1 @@
+http://www.softpanorama.org/Access_control/Sudo/sudoer_file_examples.shtml
